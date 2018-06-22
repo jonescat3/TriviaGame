@@ -1,0 +1,32 @@
+//title the game "Totally Trivial Trivia!" -done
+// make the backgroud for the title a color (css)
+//create another background for the rest of the page (css)
+//make a "start" button under the title -done
+
+//under the title after clicking the "start" button, add a "time remaining" and put it for 30 seconds
+//add a movie question, "what was the first full length CGI movie?
+// add choices; A Bug's Life, Monsters, Inc., Toy Story, The Lion King.
+// make sure these options are highlightable
+// the user will choose a movie 
+// if incorrect, add "Nope" and put the answer under it to say, "The correct answer is "khj"
+// display the pic of the correct movie below
+
+// next question; "which of these is NOT a name of one of the Spice Girls?
+//Choices: "Sporty Spice, Fred Spice, Scary Spice, Posh Spice
+
+//if player runs out of time, display a message stating that you are "Out of Time!" and place the correct answer below with the image
+
+//Which NBA team won the most titles in the 90s?
+//Choices: New York Knicks, Portland Trailblazers, LA Lakers, Chicago Bulls
+
+//if answer is correct, display the message "Correct!"
+// add the movie pic below
+
+//put several questions on my page
+
+//final message: All Done, here's how you did!
+//correct answers: 3
+//Incorrect answers: 4
+// unanswered: 1
+// Start Over?
+
