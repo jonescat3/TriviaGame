@@ -1,3 +1,34 @@
+var panel = $("#quiz-area");
+
+var questionsArray = [
+    "Which actress played the character Annie Reed in the 1993 American romantic comedy Sleepless in Seattle?",
+    "What was the first full length CGI movie?",
+    "Which popular Disney movie featured the song, \"Circle of Life\"?",
+    "What was Doug's best friend's name?",
+    "Finish this line from the Fresh Prince of Bel-Air theme song: \"I whistled for a cab and when it came near, the license plate said...\"",
+];
+var answersArray = [
+    ["Meg Ryan", "Taylor Swift", "Mariah Carey"],
+    ["A Bug's Life", "Monsters Inc.", "Toy Story", "The Lion King"],
+    ["Aladdin", "Hercules", "Mulan", "The Lion King"],
+    ["Skeeter", "Mark", "Zach", "Cody"],
+    ["Dice", "Mirror", "Fresh", "Cab"],
+];
+var correctArray = [
+    "Meg Ryan",
+    "Toy Story",
+    "The Lion King",
+    "Skeeter",
+    "Fresh"
+];
+
+var correctNum = 0;
+var incorrectNum = 0;
+var notAnsweredNum = 0;
+var counter = 0;
+var time = 0;
+var timerCounter = 30;
+
 $("#startGame").on("click", function(event) {
     $("#startGame").hide();
     //        $("#counter").html("<h2> </h2>");
@@ -131,22 +162,3 @@ function resetGame() {
     clock();
 }
 
-var questionsArray = [
-    "Which actress played the character Annie Reed in the 1993 American romantic comedy Sleepless in Seattle?",
-    
-];
-var answersArray = [
-    ["Meg Ryan", "Taylor Swift", "Mariah Carey"],
-    
-];
-var correctArray = [
-    "B. Meg Ryan"
- 
-];
-
-var correctNum = 0;
-var incorrectNum = 0;
-var notAnsweredNum = 0;
-var counter = 0;
-var time = 0;
-var timerCounter = 30;

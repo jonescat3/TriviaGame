@@ -11,7 +11,7 @@
 // if incorrect, add "Nope" and put the answer under it to say, "The correct answer is "khj"
 // display the pic of the correct movie below
 
-// next question; "which of these is NOT a name of one of the Spice Girls?
+// next question; "Which of these is NOT a name of one of the Spice Girls?
 //Choices: "Sporty Spice, Fred Spice, Scary Spice, Posh Spice
 
 //if player runs out of time, display a message stating that you are "Out of Time!" and place the correct answer below with the image
